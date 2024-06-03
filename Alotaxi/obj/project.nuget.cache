@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "082Ku1BcWSsJL+my+Znd7PwHHf2AUKcMAuw786DxGTvAzxo3zvJb3cWkVq1w3v902aoPLFOCR8BlcMC4PXSPew==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\Alotaxi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.19.6\\microsoft.visualstudio.azure.containers.tools.targets.1.19.6.nupkg.sha512"
+  ],
+  "logs": []
+}

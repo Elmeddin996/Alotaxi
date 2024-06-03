@@ -1,0 +1,1169 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Alotaxi.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Alotaxi.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\animate.css",
+      "PackagePath": "staticwebassets\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\aos.css",
+      "PackagePath": "staticwebassets\\css\\aos.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\flaticon_taxi.css",
+      "PackagePath": "staticwebassets\\css\\flaticon_taxi.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\fontawesome.css",
+      "PackagePath": "staticwebassets\\css\\fontawesome.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\jquery.fancybox.min.css",
+      "PackagePath": "staticwebassets\\css\\jquery.fancybox.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\linear.css",
+      "PackagePath": "staticwebassets\\css\\linear.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\odometer-theme-default.css",
+      "PackagePath": "staticwebassets\\css\\odometer-theme-default.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\owl.css",
+      "PackagePath": "staticwebassets\\css\\owl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\owl.video.play.html",
+      "PackagePath": "staticwebassets\\css\\owl.video.play.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\select2.min.css",
+      "PackagePath": "staticwebassets\\css\\select2.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\tm-bs-mp.css",
+      "PackagePath": "staticwebassets\\css\\tm-bs-mp.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\css\\tm-utility-classes.css",
+      "PackagePath": "staticwebassets\\css\\tm-utility-classes.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-brands-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-brands-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-brands-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-brands-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-duotone-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-duotone-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-duotone-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-duotone-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-light-300.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-light-300.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-light-300.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-light-300.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-regular-400.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-regular-400.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-regular-400.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-regular-400.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-solid-900.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-solid-900.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-solid-900.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-solid-900.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-thin-100.ttf",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-thin-100.woff",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\fa-thin-100.woff2",
+      "PackagePath": "staticwebassets\\fonts\\fa-thin-100.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\flaticon_taxicaa5.eot",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_taxicaa5.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\flaticon_taxicaa5.svg",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_taxicaa5.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\flaticon_taxicaa5.ttf",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_taxicaa5.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\flaticon_taxicaa5.woff",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_taxicaa5.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\flaticon_taxicaa5.woff2",
+      "PackagePath": "staticwebassets\\fonts\\flaticon_taxicaa5.woff2"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\linearicons-free8429.eot",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-free8429.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\linearicons-free8429.svg",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-free8429.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\linearicons-free8429.ttf",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-free8429.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\fonts\\linearicons-free8429.woff",
+      "PackagePath": "staticwebassets\\fonts\\linearicons-free8429.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\page-title.png",
+      "PackagePath": "staticwebassets\\images\\background\\page-title.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\background\\repair.jpg",
+      "PackagePath": "staticwebassets\\images\\background\\repair.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\banner\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\banner\\banner1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\banner\\banner2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\banner\\banner2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\banner\\bg-shape.png",
+      "PackagePath": "staticwebassets\\images\\banner\\bg-shape.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\clients\\1.png",
+      "PackagePath": "staticwebassets\\images\\clients\\1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\clients\\2.png",
+      "PackagePath": "staticwebassets\\images\\clients\\2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\clients\\3.png",
+      "PackagePath": "staticwebassets\\images\\clients\\3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\clients\\4.png",
+      "PackagePath": "staticwebassets\\images\\clients\\4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\clients\\5.png",
+      "PackagePath": "staticwebassets\\images\\clients\\5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\clients\\6.png",
+      "PackagePath": "staticwebassets\\images\\clients\\6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\favicon.png",
+      "PackagePath": "staticwebassets\\images\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\app-store-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\app-store-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\app-store.png",
+      "PackagePath": "staticwebassets\\images\\icons\\app-store.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\bg-pricing.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\bg-pricing.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\cat-1-bg.html",
+      "PackagePath": "staticwebassets\\images\\icons\\cat-1-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\cat-2-bg.html",
+      "PackagePath": "staticwebassets\\images\\icons\\cat-2-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\cat-3-bg.html",
+      "PackagePath": "staticwebassets\\images\\icons\\cat-3-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\cat-4-bg.html",
+      "PackagePath": "staticwebassets\\images\\icons\\cat-4-bg.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\google-play-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\google-play-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\google-play.png",
+      "PackagePath": "staticwebassets\\images\\icons\\google-play.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-car-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-car-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-car-3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-car-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-car-4.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-car-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-car-5.html",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-car-5.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-car-6.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-car-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-car.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-car.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-check.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-check.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-line.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-line.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-quote.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-quote.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\icon-tag.png",
+      "PackagePath": "staticwebassets\\images\\icons\\icon-tag.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-2.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-3.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-4.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-4.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-5.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-5.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-6.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-7.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-7.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay-8.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay-8.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\overlay.png",
+      "PackagePath": "staticwebassets\\images\\icons\\overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-1.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-2.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-3.html",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-3.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-3.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-4.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-5.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-6.png",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-6.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-7.html",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-7.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-7.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-8.html",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-8.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\pattern-8.jpg",
+      "PackagePath": "staticwebassets\\images\\icons\\pattern-8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\shape-7.html",
+      "PackagePath": "staticwebassets\\images\\icons\\shape-7.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\icons\\sub-icon.png",
+      "PackagePath": "staticwebassets\\images\\icons\\sub-icon.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\logo-2.png",
+      "PackagePath": "staticwebassets\\images\\logo-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\logo.png",
+      "PackagePath": "staticwebassets\\images\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\main-slider\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\main-slider\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\main-slider\\overlay.png",
+      "PackagePath": "staticwebassets\\images\\main-slider\\overlay.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\404.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\404.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about1-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about1-thumb1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about1-thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about3-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\about3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\about3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\app3-3.png",
+      "PackagePath": "staticwebassets\\images\\resource\\app3-3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\benefit1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\benefit1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\booking2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\booking2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\gallery-thumb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\gallery-thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\gallery-thumb-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\gallery-thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\gallery-thumb-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\gallery-thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\gallery-thumb-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\gallery-thumb-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\gallery-thumb-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\gallery-thumb-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\gallery-thumb-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\gallery-thumb-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\map.png",
+      "PackagePath": "staticwebassets\\images\\resource\\map.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\map1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\map1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news-details.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news1-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news1-thumb1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news1-thumb1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news2-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news2-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news3-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\news3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\news3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\price2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\price2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\price2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\price2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\price2-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\price2-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\pricing1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\pricing1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\pricing1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\pricing1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\pricing1-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\pricing1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\4.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\5.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\6.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\7.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\8.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\8.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\product-details.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\product-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\product-details2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\product-details2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\product-details3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\product-details3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\thumb-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\thumb-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\thumb-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\thumb-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\products\\thumb-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\products\\thumb-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service-d1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service-d1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service-d2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service-d2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service-details.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service1-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service3-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service3-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service3-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service3-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service3-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service3-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\service4-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\service4-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\sign.png",
+      "PackagePath": "staticwebassets\\images\\resource\\sign.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team-details.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team-details.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team1-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team1-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team1-3.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team1-3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team1-4.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team1-4.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team1-5.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team1-5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\team1-6.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\team1-6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\testi-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi-1.png",
+      "PackagePath": "staticwebassets\\images\\resource\\testi-1.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\testi-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi-2.png",
+      "PackagePath": "staticwebassets\\images\\resource\\testi-2.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi1-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\testi1-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi2-1.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\testi2-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\images\\resource\\testi2-2.jpg",
+      "PackagePath": "staticwebassets\\images\\resource\\testi2-2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\ScrollTrigger.min.js",
+      "PackagePath": "staticwebassets\\js\\ScrollTrigger.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\aos.js",
+      "PackagePath": "staticwebassets\\js\\aos.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\appear.js",
+      "PackagePath": "staticwebassets\\js\\appear.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\bxslider.js",
+      "PackagePath": "staticwebassets\\js\\bxslider.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\gsap.min.js",
+      "PackagePath": "staticwebassets\\js\\gsap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\jquery-ui.js",
+      "PackagePath": "staticwebassets\\js\\jquery-ui.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\jquery.countdown.html",
+      "PackagePath": "staticwebassets\\js\\jquery.countdown.html"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\jquery.fancybox.js",
+      "PackagePath": "staticwebassets\\js\\jquery.fancybox.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\jquery.form.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.form.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\jquery.js",
+      "PackagePath": "staticwebassets\\js\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\js\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\main-slider-script.js",
+      "PackagePath": "staticwebassets\\js\\main-slider-script.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\mixitup.js",
+      "PackagePath": "staticwebassets\\js\\mixitup.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\odometer.js",
+      "PackagePath": "staticwebassets\\js\\odometer.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\owl.js",
+      "PackagePath": "staticwebassets\\js\\owl.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\popper.min.js",
+      "PackagePath": "staticwebassets\\js\\popper.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\script.js",
+      "PackagePath": "staticwebassets\\js\\script.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\select2.min.js",
+      "PackagePath": "staticwebassets\\js\\select2.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\splitType.js",
+      "PackagePath": "staticwebassets\\js\\splitType.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\wow.js",
+      "PackagePath": "staticwebassets\\js\\wow.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\assets\\coloredbg.png",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\assets\\coloredbg.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\assets\\gridtile.png",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\assets\\gridtile.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\assets\\gridtile_3x3.png",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\assets\\gridtile_3x3.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\assets\\gridtile_3x3_white.png",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\assets\\gridtile_3x3_white.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\assets\\gridtile_white.png",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\assets\\gridtile_white.png"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\assets\\loader.gif",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\assets\\loader.gif"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\css\\closedhand.cur",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\css\\closedhand.cur"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\css\\layers.css",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\css\\layers.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\css\\navigation.css",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\css\\navigation.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\css\\openhand.cur",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\css\\openhand.cur"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\css\\settings.css",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\css\\settings.css"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\fonts\\revicons\\revicons90c6.eot",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\fonts\\revicons\\revicons90c6.eot"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\fonts\\revicons\\revicons90c6.svg",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\fonts\\revicons\\revicons90c6.svg"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\fonts\\revicons\\revicons90c6.ttf",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\fonts\\revicons\\revicons90c6.ttf"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\fonts\\revicons\\revicons90c6.woff",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\fonts\\revicons\\revicons90c6.woff"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.actions.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.actions.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.carousel.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.carousel.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.kenburn.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.layeranimation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.migration.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.migration.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.navigation.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.navigation.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.parallax.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.parallax.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.slideanims.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\extensions\\revolution.extension.video.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\extensions\\revolution.extension.video.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\jquery.themepunch.revolution.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\jquery.themepunch.revolution.min.js"
+    },
+    {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\plugins\\revolution\\js\\jquery.themepunch.tools.min.js",
+      "PackagePath": "staticwebassets\\plugins\\revolution\\js\\jquery.themepunch.tools.min.js"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Alotaxi.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.Alotaxi.props",
+      "PackagePath": "build\\Alotaxi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.Alotaxi.props",
+      "PackagePath": "buildMultiTargeting\\Alotaxi.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.Alotaxi.props",
+      "PackagePath": "buildTransitive\\Alotaxi.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
