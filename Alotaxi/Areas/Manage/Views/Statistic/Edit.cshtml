@@ -1,0 +1,30 @@
+﻿@model Statistic
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2>Redaktə Et</h2>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="CarCount">Avtomobil sayı</label>
+                <input class="form-control" placeholder="Avtomobil sayı əlavə edin" asp-for="CarCount">
+            </div>
+            <div class="form-group">
+                <label asp-for="RoadCount">Yolda olan sifariş sayı</label>
+                <input class="form-control" placeholder="Yolda olan sifariş sayı əlavə edin" asp-for="RoadCount">
+            </div>
+           
+            <div class="form-group">
+                <label asp-for="LocationCount">Müştəri sayı</label>
+                <input class="form-control" placeholder="Müştəri sayı əlavə edin" asp-for="LocationCount">
+            </div>
+            
+           
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+
+    </div>
+</div>
+

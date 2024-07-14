@@ -1,0 +1,49 @@
+﻿@model Settings
+
+<style>
+    .table td {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 130px;
+    }
+</style>
+
+ <div class="col-md-8">
+        <h2>Sayt Məlumatları</h2>
+        <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Ünvan</th>
+                    <th scope="col">Əlaqə Nömrəsi</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">AppStore</th>
+                    <th scope="col">PlayStore</th>
+                    <th scope="col">Instagram</th>
+                    <th scope="col">Facebook</th>
+
+               
+                </tr>
+            </thead>
+            <tbody>
+
+              
+                    <tr>
+                        <td>#</td>
+                        <td>@Model.Address</td>
+                        <td>@Model.Phone</td>
+                        <td>@Model.Email</td>
+                        <td>@Model.AppStore</td>
+                        <td>@Model.PlayStore</td>
+                        <td>@Model.Instagram</td>
+                        <td>@Model.Facebook</td>
+
+                        <td>
+                            <a class="btn btn-warning" asp-action="edit" asp-route-id="@Model.Id">Redaktə Et</a>
+                        </td>
+                    </tr>
+            </tbody>
+        </table
+    </div>

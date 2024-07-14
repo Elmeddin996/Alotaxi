@@ -1,0 +1,100 @@
+﻿@model Settings
+<section class="page-title" style="background: url(images/background/page-title.png);">
+    <div class="auto-container">
+        <div class="title-outer text-center">
+            <h1 class="title">Bizimlə Əlaqə Saxla</h1>
+            <ul class="page-breadcrumb">
+                <li><a asp-controller="home" asp-action="index">Əsas Səhifə</a></li>
+                <li>Əlaqə</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+
+<section class="contact-details">
+    <div class="container ">
+        <div class="row">
+            <div class="col-xl-7 col-lg-6">
+                <div class="sec-title">
+                    <span class="sub-title">Bizə Email Göndər</span>
+                    <h2>Birbaşa Bizə Yaz.</h2>
+                </div>
+
+                <form id="contact_form" name="contact_form" method="post" enctype="multipart/form-data">
+                    <div class="row">
+                        <div class="mb-3">
+                            <input class="form-control" type="text" name="Fullname" id="Fullname" placeholder="Ad və Soyad">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="mb-3">
+                                <input type="number" name="phone" class="form-control" id="phone" placeholder="Nömrə">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea class="form-control" name="message" rows="5" placeholder="Mesaj"></textarea>
+                    </div>
+                    <div class="mb-5">
+                        <input name="form_botcheck" class="form-control" type="hidden" value />
+                        <button type="submit" class="theme-btn btn-style-one mb-3 mb-sm-0" data-loading-text="Zəhmət olmasa gözləyin..."><span class="btn-title">Mesaj göndər</span></button>
+                        <button type="reset" class="theme-btn btn-style-one bg-theme-color5"><span class="btn-title">Yenilə</span></button>
+                    </div>
+                </form>
+
+            </div>
+            <div class="col-xl-5 col-lg-6">
+                <div class="contact-details__right">
+                    <div class="sec-title">
+                        <span class="sub-title">Köməyə ehtiyac var?</span>
+                        <h2>Bizimlə əlaqə yarat</h2>
+                        <div class="text">ALO TAXI: 2016-cı ildən başlayaraq xidmətləri daha müasir, əlçatan və təhlükəsiz edən taksi, kuryer, daimi sürücü,
+                                         ayıq sürücü habelə korporativ taksi sifariş etmək üçün nəzərdə tutulan bir xidmətidir.</div>
+                    </div>
+                    <ul class="list-unstyled contact-details__info">
+                        <li class="d-block d-sm-flex align-items-sm-center ">
+                            <div class="icon">
+                                <span class="lnr-icon-phone-plus"></span>
+                            </div>
+                            <div class="text ml-xs--0 mt-xs-10">
+                                <h4>Nəsə sualınız var?</h4>
+                                <a href="tel:@Model.Phone"><span>Pulsuz Zəng - </span>@Model.Phone</a>
+                            </div>
+                        </li>
+                        <li class="d-block d-sm-flex align-items-sm-center ">
+                            <div class="icon">
+                                <span class="lnr-icon-envelope1"></span>
+                            </div>
+                            <div class="text ml-xs--0 mt-xs-10">
+                                <h4>Bizə Yazın</h4>
+                                <span>@Model.Email</span>
+                            </div>
+                        </li>
+                        <li class="d-block d-sm-flex align-items-sm-center ">
+                            <div class="icon">
+                                <span class="lnr-icon-location"></span>
+                            </div>
+                            <div class="text ml-xs--0 mt-xs-10">
+                                <h4>Ünvan</h4>
+                                <span>Sumqayıt şəh. Heydər Əliyev pr. <br/> 208A 2 ci mərtəbə</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="map-section">
+    <iframe class="map w-100" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street,%20Dublin,%20Ireland+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>
+</section>
+

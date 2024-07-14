@@ -1,11 +1,223 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
-}
+﻿@model HomeViewModel
 
+<section class="main-slider">
+    <div class="rev_slider_wrapper fullwidthbanner-container" id="rev_slider_one_wrapper" data-source="gallery">
+        <div class="rev_slider fullwidthabanner" id="rev_slider_one" data-version="5.4.1">
+            <ul>
 
-<div class="container">
-    <img src="~/images/background/repair.jpg" alt="Resim" class="image">
-    <div class="overlay">
-        <h1 class="text">Tezliklə...🔧⚙️</h1>
+                @foreach (var slider in Model.Sliders)
+                {
+                    <li data-index="rs-1" data-transition="zoomout">
+
+                        <img src="~/uploads/sliders/@slider.Image" alt class="rev-slidebg">
+                        <div class="tp-caption" data-paddingbottom="[15,15,15,15]" data-paddingleft="[15,15,15,15]" data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['1920','900','750','450']" data-whitespace="normal" data-hoffset="['0','0','0','0']" data-voffset="['-91','-91','-91','-91']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]">
+                            <h1 class="title">@slider.Title</h1>
+                        </div>
+                        <div class="tp-caption" data-paddingbottom="[15,15,15,15]" data-paddingleft="[15,15,15,15]" data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['900','900','750','450']" data-whitespace="normal" data-hoffset="['0','0','0','0']" data-voffset="['55','55','55','55']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]">
+                            <div class="text">@slider.Description</div>
+                        </div>
+                        <div class="tp-caption" data-paddingbottom="[15,15,15,15]" data-paddingleft="[15,15,15,15]" data-paddingright="[15,15,15,15]" data-paddingtop="[0,0,0,0]" data-responsive_offset="on" data-type="text" data-height="none" data-width="['900','900','750','450']" data-whitespace="normal" data-hoffset="['0','0','0','0']" data-voffset="['155','155','140','160']" data-x="['left','left','left','left']" data-y="['middle','middle','middle','middle']" data-textalign="['top','top','top','top']" data-frames="[{&quot;delay&quot;:1000,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:0px;s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:300,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;auto:auto;&quot;,&quot;ease&quot;:&quot;Power3.easeInOut&quot;}]">
+                            <a href="@slider.BtnUrl" class="theme-btn btn-style-one dark-line"><span class="btn-title">@slider.ButtonText</span></a>
+                        </div>
+                    </li>
+                }
+            </ul>
+        </div>
     </div>
-</div>
+</section>
+
+
+<section class="service-section">
+    <div class="auto-container">
+        <div class="outer-box">
+            <div class="row">
+                <div class="sec-title text-center">
+                    <span class="sub-icon"></span>
+                    <span class="sub-title">7/24 xidmətinizdəyik</span>
+                    <h2 class="letters-slide-up text-split">Daha Sərfəlisi Yoxdur!</h2>
+                </div>
+                
+               @foreach (var whyUs in Model.WhyUs)
+                {
+                    <div class="service-block col-lg-4 col-md-6" data-aos="fade-up">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <figure class="image"><img src="~/uploads/whyUs/@whyUs.Image" alt="Image"></figure>
+                            </div>
+                            <div class="content">
+                                <h4 class="title"><a href="page-service-details.html">@whyUs.Title</a></h4>
+                                <div class="text">
+                                    @whyUs.Description
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about-section pt-0">
+    <div class="auto-container">
+        <div class="row">
+
+            <div class="content-column col-lg-6 col-md-12 col-sm-12 order-lg-2" data-aos="fade-left">
+                <div class="inner-column">
+                    <div class="sec-title">
+                        <span class="sub-title">Welcome to our company</span>
+                        <h2 class="letters-slide-up text-split">Feel the difference and Relaxation!</h2>
+                        <div class="text">We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies. Our portfolio includes dozens of successfully completed projects of houses of different storeys,</div>
+                    </div>
+                    <ul class="list-style-two">
+                        <li>We successfully cope with tasks of varying complexity.</li>
+                        <li>Long-term gurantees and regularly</li>
+                        <li>Master new technologies.</li>
+                    </ul>
+                    
+                </div>
+            </div>
+
+            <div class="image-column col-lg-6 col-md-12 col-sm-12">
+                <div class="inner-column">
+                    <figure class="image reveal"><img src="~/images/resource/about1-1.jpg" alt="Image"></figure>
+                    <figure class="image-2 reveal"><img src="~/images/resource/about1-2.jpg" alt="Image"></figure>
+                    <div class="video-box" data-aos="fade-up">
+                        <figure class="image"><img src="~/images/resource/about1-3.jpg" alt="Image"></figure>
+                        <a href="https://www.youtube.com/watch?v=Fvae8nxzVz4" class="play-btn" data-fancybox data-caption><div class="icon-triangle fas fa-caret-right"></div></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="booking-section">
+    <div class="bg bg-image" style="background-image: url(images/background/1.jpg);"></div>
+    <div class="bg-overlay"></div>
+    <div class="auto-container">
+
+        <div class="booking-form">
+            <div class="sec-title">
+                <h2 class="letters-slide-up text-split">Book Your Taxi Ride!</h2>
+                <div class="text">To get the ride of your taxi please select from the following:</div>
+            </div>
+            <form method="get" action="#">
+                <div class="row">
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                        <select class="custom-select">
+                            <option>Choose Taxi Type</option>
+                            <option>Hybrid Tax</option>
+                            <option>Town Taxi</option>
+                            <option>SUV Taxi</option>
+                            <option>Limousine Taxi</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                        <div class="input-outer">
+                            <input type="text" name="destination" placeholder="Start Destination" required>
+                            <i class="icon fal fa-map-marker-alt"></i>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                        <div class="input-outer">
+                            <input type="text" name="destination" placeholder="End Destination" required>
+                            <i class="icon fal fa-map-marker-alt"></i>
+                        </div>
+                    </div>
+
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                        <div class="boxed-outer-box">
+                            <div class="boxed">
+                                <input type="radio" id="android" name="skills" value="Single" checked>
+                                <label for="android">Single</label>
+                            </div>
+                            <div class="boxed">
+                                <input type="radio" id="ios" name="skills" value="Family">
+                                <label for="ios">Family</label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                        <input type="text" name="name" placeholder="Complete Name" required>
+                    </div>
+                    <div class="form-group col-lg-6 col-md-6 col-sm-12">
+                        <input type="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                        <div class="input-outer">
+                            <input type="text" name="destination" placeholder="Phone No" required>
+                            <i class="icon fal fa-mobile"></i>
+                        </div>
+                    </div>
+                    <div class="form-group col-lg-12 col-md-12 col-sm-12">
+                        <button type="submit" class="theme-btn btn-style-one"><span class="btn-title">Find a Taxi</span></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+
+<section class="app-section">
+    <div class="auto-container">
+        <div class="outer-box">
+            <div class="bg bg-image" style="background-image: url(images/background/3.jpg);"></div>
+            <div class="icon-car-3 bounce-x"></div>
+            <div class="bg-overlay-2"></div>
+            <div class="content">
+                <h1 class="title letters-slide-up text-split">Elə indi <br> <span class="colored">«Alo Taksi»</span>ni <br> telefonunuza<br> yükləyin</h1>
+                <div class="text">Sərfəli və rahat səfərdən zövq alın</div>
+               @foreach (var setting in Model.Settings)
+                {
+                    <div class="btn-box">
+                        <a href="@setting.PlayStore" class="image"><img src="~/images/icons/google-play.png" alt="Image"></a>
+                        <a href="#" class="image"><img src="~/images/icons/app-store.png" alt="Image"></a>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="funfact-section">
+    <div class="auto-container">
+        <div class="fact-counter">
+            @foreach (var statistic in Model.Statistics)
+            {
+                <div class="row">
+
+                    <div class="counter-block col-lg-4 col-md-6">
+                        <div class="inner-box">
+                            <div class="icon-box"><i class="icon flaticon-connected-car"></i></div>
+                            <div class="counter-one"><span class="odometer" data-count="@statistic.CarCount"></span></div>
+                            <h4 class="counter-text">Avtomobil</h4>
+                        </div>
+                    </div>
+
+                    <div class="counter-block col-lg-4 col-md-6">
+                        <div class="inner-box">
+                            <div class="icon-box two"><i class="icon flaticon-destination"></i></div>
+                            <div class="counter-one"><span class="odometer" data-count="@statistic.RoadCount"></span></div>
+                            <h4 class="counter-text">Yolda Olan Sifariş</h4>
+                        </div>
+                    </div>
+
+                    <div class="counter-block col-lg-4 col-md-6">
+                        <div class="inner-box">
+                            <div class="icon-box three"><i class="icon flaticon-location"></i></div>
+                            <div class="counter-one"><span class="odometer" data-count="@statistic.LocationCount"></span></div>
+                            <h4 class="counter-text">Müştəri</h4>
+                        </div>
+                    </div>
+                </div>
+
+            }
+        </div>
+    </div>
+</section>

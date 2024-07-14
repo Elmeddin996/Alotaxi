@@ -1,0 +1,38 @@
+﻿@model Statistic
+
+<style>
+    .table td {
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 130px;
+    }
+</style>
+
+ <div class="col-md-8">
+        <h2>Əsas Səhifə Statistikalar</h2>
+        <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Avtomobil sayı</th>
+                    <th scope="col">Yolda olan sifariş sayı</th>
+                    <th scope="col">Müştəri sayı</th>
+                </tr>
+            </thead>
+            <tbody>
+
+              
+                    <tr>
+                        <td>#</td>
+                        <td>@Model.RoadCount</td>
+                        <td>@Model.CarCount</td>
+                        <td>@Model.LocationCount</td>
+                        <td>
+                            <a class="btn btn-warning" asp-action="edit" asp-route-id="@Model.Id">Redaktə Et</a>
+                        </td>
+                    </tr>
+            </tbody>
+        </table
+    </div>

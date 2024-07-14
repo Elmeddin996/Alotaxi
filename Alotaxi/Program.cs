@@ -1,9 +1,51 @@
+using Alotaxi.DAL;
+using Alotaxi.Models;
+using Alotaxi.Services;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<AlotaxiDbContext>(opt =>
+{
+    opt.UseNpgsql(builder.Configuration.GetConnectionString("Default"));
+});
+
+
+builder.Services.AddIdentity<AppUser, IdentityRole>(opt =>
+{
+    opt.Password.RequireNonAlphanumeric = false;
+    opt.Password.RequiredLength = 8;
+    opt.SignIn.RequireConfirmedEmail = false;
+}).AddDefaultTokenProviders().AddEntityFrameworkStores<AlotaxiDbContext>();
+
+builder.Services.AddScoped<IEmailSender, EmailSender>();
+builder.Services.AddScoped<LayoutService>();
+
 
 builder.Services.AddHttpContextAccessor();
 
+builder.Services.ConfigureApplicationCookie(options =>
+{
+    options.Events.OnRedirectToLogin = options.Events.OnRedirectToAccessDenied = context =>
+    {
+        if (context.HttpContext.Request.Path.Value.StartsWith("/manage"))
+        {
+            var redirectUri = new Uri(context.RedirectUri);
+            context.Response.Redirect("/manage/account/login" + redirectUri.Query);
+        }
+        else
+        {
+            var redirectUri = new Uri(context.RedirectUri);
+            context.Response.Redirect("/account/login" + redirectUri.Query);
+        }
+
+        return Task.CompletedTask;
+    };
+});
+
+//builder.WebHost.ConfigureKestrel(op => op.ListenLocalhost(5071));
 
 var app = builder.Build();
 
