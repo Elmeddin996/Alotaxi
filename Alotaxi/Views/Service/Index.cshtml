@@ -2,10 +2,10 @@
 <section class="page-title" style="background-image: url(images/background/page-title.png);">
     <div class="auto-container">
         <div class="title-outer text-center">
-            <h1 class="title">Services</h1>
+            <h1 class="title">Xidmətlərimiz</h1>
             <ul class="page-breadcrumb">
-                <li><a href="index-2.html">Home</a></li>
-                <li>Services</li>
+                <li><a asp-action="index" asp-controller="home">Əsas səhifə</a></li>
+                <li>Xidmətlərimiz</li>
             </ul>
         </div>
     </div>
@@ -23,13 +23,12 @@
                     <div class="service-block-three">
                         <div class="inner-box">
                             <div class="image-box">
-                                <figure class="image"><img src="images/resource/service3-3.jpg" alt="Image"></figure>
+                                <figure class="image"><img src="~/uploads/categories/@item.Image" alt="Image"></figure>
                                 <i class="icon flaticon-driver-3"></i>
                             </div>
                             <div class="content">
-                                <h3 class="title"><a href="page-service-details.html">Tour Transport</a></h3>
-                                <div class="text">Curabitur ac quam aliquam vehic se ula semper sed vel elit et seleo pur Curabitur ac quus.</div>
-                                <a href="page-service-details.html" class="icon fa fa-angle-double-right"></a>
+                                <h3 class="title">@item.CategoryName</h3>
+                                <div class="text">@item.Description</div>
                             </div>
                         </div>
                     </div>

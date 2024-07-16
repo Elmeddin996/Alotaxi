@@ -45,10 +45,10 @@
                                     <li><i class="fal fa-envelope"></i> <a href="mailto: @setting.Email">@setting.Email</a></li>
                                 </ul>
                             }
-                           
+
                         </div>
                         <div class="top-right">
-                           @foreach (var setting in settings)
+                            @foreach (var setting in settings)
                             {
                                 <ul class="social-icon-one">
                                     <li><a href="@setting.Facebook"><i class="fab fa-facebook"></i></a></li>
@@ -72,10 +72,10 @@
                             <nav class="nav main-menu">
                                 <ul class="navigation">
                                     <li>
-                                        <a href="#">Ana Səhifə</a>
+                                        <a asp-action="index" asp-controller="home">Ana Səhifə</a>
                                     </li>
                                     <li>
-                                        <a href="#">Haqqımızda</a>
+                                        <a asp-controller="about" asp-action="index">Haqqımızda</a>
                                     </li>
                                     <li><a asp-controller="service" asp-action="index">Xidmətlərimiz</a></li>
                                     <li><a asp-controller="contact" asp-action="index">Əlaqə</a>
@@ -101,54 +101,67 @@
 
                 <nav class="menu-box">
                     <div class="upper-box">
-                        <div class="nav-logo"><a href="index-2.html"><img src="~/images/logo-2.png" alt title></a></div>
+                        <div class="nav-logo"><a asp-action="index" asp-controller="home"><img src="~/images/logo-2.png" alt title></a></div>
                         <div class="close-btn"><i class="icon fa fa-times"></i></div>
                     </div>
                     <ul class="navigation clearfix">
                     </ul>
                     <ul class="contact-list-one light">
                         <li>
-                            <i class="icon lnr-icon-phone-handset"></i> <span class="title">Call Now</span>
-                            <div class="text"><a href="tel:+92880098670">+92 (8800) - 98670</a></div>
+                            <i class="icon lnr-icon-phone-handset"></i> <span class="title">Pulsuz Zəng Et</span>
+                            @foreach (var item in settings)
+                            {
+                                <div class="text"><a href="tel:@item.Phone">@item.Phone</a></div>
+
+                            }
                         </li>
                         <li>
-                            <i class="icon lnr-icon-envelope1"></i> <span class="title">Send Email</span>
-                            <div class="text"><a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#90f8f5fce0d0f3fffde0f1fee9bef3fffd"><span class="__cf_email__" data-cfemail="59313c3529193a363429383720773a3634">[email&#160;protected]</span></a></div>
+                            <i class="icon lnr-icon-envelope1"></i> <span class="title">Bizə Yaz</span>
+                            @foreach (var item in settings)
+                            {
+                                <div class="text"><a href="mailto: @item.Email">@item.Email</a></div>
+
+                            }
                         </li>
                         <li>
-                            <i class="icon lnr-icon-map-marker"></i> <span class="title">Address</span>
-                            <div class="text">66 Broklyant, New York India 3269</div>
+                            <i class="icon lnr-icon-map-marker"></i> <span class="title">Ünvan</span>
+                            @foreach (var item in settings)
+                            {
+                                <div class="text">@item.Address</div>
+
+                            }
                         </li>
                     </ul>
                     <ul class="social-links">
-                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fab fa-pinterest"></i></a></li>
-                        <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                        @foreach (var item in settings)
+                        {
+                            <li><a href="@item.Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="@item.Instagram"><i class="fab fa-instagram"></i></a></li>
+                        }
                     </ul>
                 </nav>
             </div>
 
 
-            <div class="search-popup">
+          @*   <div class="search-popup">
                 <span class="search-back-drop"></span>
                 <button class="close-search"><span class="fa fa-times"></span></button>
                 <div class="search-inner">
-                    <form method="post" action="https://html.kodesolution.com/2024/taxix-html/blog-showcase.html">
+                    <form method="post">
                         <div class="form-group">
                             <input type="search" name="search-field" value placeholder="Search..." required>
                             <button type="submit"><i class="fa fa-search"></i></button>
                         </div>
                     </form>
                 </div>
-            </div>
+            </div> *@
 
 
             <div class="sticky-header">
                 <div class="auto-container">
                     <div class="inner-container">
 
-                        <div class="logo"> <a href="index-2.html" title><img src="~/images/logo.png" alt title></a> </div>
+                        <div class="logo"> <a asp-action="index" asp-controller="home" title><img src="~/images/logo.png" alt title></a> </div>
 
                         <div class="nav-outer">
 
@@ -233,8 +246,8 @@
                             }
                             @foreach (var item in settings)
                             {
-                                
-                            <li><a href="@item.Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
+
+                                <li><a href="@item.Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
                             }
                         </ul>
                     </div>

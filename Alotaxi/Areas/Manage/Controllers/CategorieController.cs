@@ -92,6 +92,7 @@ namespace Alotaxi.Areas.Manage.Controllers
             }
 
             existCategorie.CategoryName = categorie.CategoryName;
+            existCategorie.Description = categorie.Description;
 
             _context.SaveChanges();
 
