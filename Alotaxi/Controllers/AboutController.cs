@@ -16,9 +16,10 @@ namespace Alotaxi.Controllers
         {
             AboutPageViewModel vm = new AboutPageViewModel
             {
-                Categories=_context.Categories.ToList()
+                Categories=_context.Categories.Take(3).ToList(),
+                Abouts=_context.About.ToList()
             };
-            return View();
+            return View(vm);
         }
     }
 }

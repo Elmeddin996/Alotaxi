@@ -1,0 +1,57 @@
+﻿@model PaginatedList<About>
+@{
+    ViewData["Title"] = "Index";
+    int order = (Model.PageIndex-1)*1;
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2>Haqqımızda</h2>
+        <br />
+        <form asp-action="index" method="get">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <input type="text" name="search" class="form-control" id="textInput" value="@ViewBag.Search" placeholder="Search">
+                    </div>
+                </div>
+                <div class="col-md-4">
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+                <br />
+                <br />
+            </div>
+        </form>
+        <br />
+        <br />
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Başlıq</th>
+                    <th scope="col">Şəkil</th>
+
+               
+                </tr>
+            </thead>
+            <tbody>
+
+                @foreach (var item in Model.Items)
+                {
+                    order++;
+                    <tr>
+                        <th scope="row">@order</th>
+                        <td>@item.BigTitle</td>
+                        <td><img  width="50" src="~/uploads/about/@item.BigImage"/></td>
+
+                        <td>
+                            <a class="btn btn-warning" asp-action="edit" asp-route-id="@item.Id">Redaktə Et</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table
+    </div>
+</div>
+
+

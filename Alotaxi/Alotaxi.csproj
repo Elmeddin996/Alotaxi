@@ -21,6 +21,7 @@
 
   <ItemGroup>
     <Folder Include="wwwroot\uploads\categories\" />
+    <Folder Include="wwwroot\uploads\about\" />
     <Folder Include="wwwroot\uploads\whyUs\" />
     <Folder Include="wwwroot\uploads\sliders\" />
   </ItemGroup>

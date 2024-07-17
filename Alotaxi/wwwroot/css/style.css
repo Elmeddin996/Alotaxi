@@ -5812,7 +5812,7 @@ Main Header
 }
 .service-section-two .image-box .inner-box .exp-box {
   position: absolute;
-  bottom: 46px;
+  top:110px;
   left: 85px;
   padding: 35px 30px 44px 50px;
   max-width: 364px;

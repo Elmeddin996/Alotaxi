@@ -1,0 +1,52 @@
+﻿@model About
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<div class="row justify-content-center">
+    <div class="col-md-8">
+        <h2>Redaktə Et</h2>
+        <form asp-action="edit" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Title">Başlıq</label>
+                <input class="form-control" asp-for="Title">
+                <span class="text-danger" asp-validation-for="Title"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BigTitle">Əsas Başlıq</label>
+                <input class="form-control" asp-for="BigTitle">
+                <span class="text-danger" asp-validation-for="BigTitle"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Detail">Məlumat</label>
+                <input class="form-control" asp-for="Detail">
+                <span class="text-danger" asp-validation-for="Detail"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BigImageFile">Əsas Şəkil</label>
+                <input class="form-control" asp-for="BigImageFile">
+                <span class="text-danger" asp-validation-for="BigImageFile"></span>
+            </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative;margin-right:14px">
+                    <img width="200" src="~/uploads/about/@Model.BigImage" />
+                </div>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div class="form-group">
+                <label asp-for="ImageFile">Kiçik Şəkil</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative;margin-right:14px">
+                    <img width="200" src="~/uploads/about/@Model.Image" />
+                </div>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+</div>
+
