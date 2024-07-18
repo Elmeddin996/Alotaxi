@@ -3,6 +3,7 @@
 
 @{
     var settings = _layoutService.GetSettings();
+    var about = _layoutService.GetAbout();
 }
 
 <!DOCTYPE html>
@@ -192,41 +193,40 @@
 
                         <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget about-widget">
-                                <h5 class="widget-title">Information</h5>
+                                <h5 class="widget-title">Haqqımızda</h5>
                                 <div class="widget-content">
-                                    <div class="text">Authoritatively simplify open-source resources via backend visualize business <br>e-markets before parallel convergence optimize sticky and idea-sharing rather than unique solutions.</div>
+                                    @foreach (var item in about)
+                                    {
+                                        <div class="text">@item.Detail</div>
+
+                                    }
                                 </div>
                             </div>
                         </div>
 
                         <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget links-widget">
-                                <h5 class="widget-title">Contact Info</h5>
+                                <h5 class="widget-title">Əlaqə Məlumatları</h5>
                                 <div class="widget-content">
-                                    <ul class="contact-list-two light">
-                                        <li><i class="fal fa-map-marker-alt"></i>25 Street, 145 City Road New <br>Town DD14, USA</li>
-                                        <li><i class="fal fa-mobile"></i> <a href="tel:380503184707">(+380) 50 318 47 07</a></li>
-                                        <li><i class="fal fa-envelope-open"></i> <a href="https://html.kodesolution.com/cdn-cgi/l/email-protection#d2bcb7b7b6bab7bea292b1bdbfa2b3bcabfcb1bdbf"><span class="__cf_email__" data-cfemail="b2c7c1d7c0dcd3dfd7f2d6dddfd3dbdc9cd1dddf">[email&#160;protected]</span></a></li>
-                                    </ul>
+                                   @foreach (var item in settings)
+                                    {
+                                        <ul class="contact-list-two light">
+                                            <li><i class="fal fa-map-marker-alt"></i>@item.Address</li>
+                                            <li><i class="fal fa-mobile"></i> <a href="tel:@item.Phone">@item.Phone</a></li>
+                                            <li><i class="fal fa-envelope-open"></i><a href="mailto: @item.Email">@item.Email</a></li>
+                                        </ul>
+                                    }
                                 </div>
                             </div>
                         </div>
 
                         <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget newsletter-widget">
-                                <h4 class="widget-title">Newsletter</h4>
+                                <h4 class="widget-title">Səhİfələr</h4>
                                 <div class="widget-content">
-                                    <div class="text">Signup for our weekly newsletter or updates.</div>
-                                    <div class="newsletter-form">
-                                        <form method="post" action="#">
-                                            <div class="form-group">
-                                                <div class="input-outer">
-                                                    <input type="email" name="email" placeholder="Enter Your email." required>
-                                                </div>
-                                                <button type="button" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Subscribe</span></button>
-                                            </div>
-                                        </form>
-                                    </div>
+                                    <button type="button" asp-action="index" asp-controller="service"  class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Xidmətlərimiz</span></button>
+                                    <button type="button" asp-action="index" asp-controller="about" style="padding: 24px 80px 20px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Haqqımızda</span></button>
+                                    <button type="button" asp-action="index" asp-controller="contact" style="padding: 24px 102px 20px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Əlaqə</span></button>
                                 </div>
                             </div>
                         </div>

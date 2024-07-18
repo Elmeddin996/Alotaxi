@@ -833,6 +833,10 @@
       "PackagePath": "staticwebassets\\js\\main-slider-script.js"
     },
     {
+      "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\main.js",
+      "PackagePath": "staticwebassets\\js\\main.js"
+    },
+    {
       "Id": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\mixitup.js",
       "PackagePath": "staticwebassets\\js\\mixitup.js"
     },

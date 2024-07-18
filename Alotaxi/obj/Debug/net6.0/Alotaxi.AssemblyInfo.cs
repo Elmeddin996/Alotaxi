@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Alotaxi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+09ad157f060c8afe28c80c32f66b5bd12c9f0748")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+52f05e72b8989f59e68d128cd733ed24fa09a3fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Alotaxi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Alotaxi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

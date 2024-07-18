@@ -2386,7 +2386,7 @@ Main Header
   display: block;
 }
 .main-header .logo img {
-  max-width: 100%;
+  max-width: 150px;
   height: auto;
 }
 .main-header .main-box {

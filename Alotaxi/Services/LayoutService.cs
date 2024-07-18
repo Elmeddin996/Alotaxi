@@ -16,5 +16,9 @@ namespace Alotaxi.Services
         {
             return _contex.Settings.ToList();
         }
+        public List<About> GetAbout()
+        {
+            return _contex.About.ToList();
+        }
     }
 }

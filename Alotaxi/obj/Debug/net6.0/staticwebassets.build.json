@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ftEf9qBVv+AamyavuLoz+texEaKiHPmkBvBPxqGEBGI=",
+  "Hash": "GyDzh+abSWBd1nzpGowlCWm1rukRllBe12AWILtGiiU=",
   "Source": "Alotaxi",
   "BasePath": "_content/Alotaxi",
   "Mode": "Default",
@@ -3948,6 +3948,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\jquery-ui.js"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\main.js",
+      "SourceId": "Alotaxi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\",
+      "BasePath": "_content/Alotaxi",
+      "RelativePath": "js/main.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\main.js"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\js\\main-slider-script.js",
