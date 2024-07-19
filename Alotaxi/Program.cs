@@ -45,7 +45,7 @@ builder.Services.ConfigureApplicationCookie(options =>
     };
 });
 
-//builder.WebHost.ConfigureKestrel(op => op.ListenLocalhost(5071));
+builder.WebHost.ConfigureKestrel(op => op.ListenLocalhost(5071));
 
 var app = builder.Build();
 
