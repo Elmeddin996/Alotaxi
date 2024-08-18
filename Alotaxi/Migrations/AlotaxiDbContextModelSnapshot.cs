@@ -82,6 +82,27 @@ namespace Alotaxi.Migrations
                     b.ToTable("Categories");
                 });
 
+            modelBuilder.Entity("Alotaxi.Models.Customer", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Customers");
+                });
+
             modelBuilder.Entity("Alotaxi.Models.Settings", b =>
                 {
                     b.Property<int>("Id")
@@ -95,6 +116,14 @@ namespace Alotaxi.Migrations
                         .HasColumnType("text");
 
                     b.Property<string>("AppStore")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("BusinessDescription")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("BusinessTitle")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -181,6 +210,31 @@ namespace Alotaxi.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Statistics");
+                });
+
+            modelBuilder.Entity("Alotaxi.Models.Suggestion", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Image")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("PersonCount")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Suggestions");
                 });
 
             modelBuilder.Entity("Alotaxi.Models.WhyUs", b =>

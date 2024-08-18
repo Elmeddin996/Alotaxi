@@ -79,7 +79,16 @@
                                         <a asp-controller="about" asp-action="index">Haqqımızda</a>
                                     </li>
                                     <li><a asp-controller="service" asp-action="index">Xidmətlərimiz</a></li>
+                                    <li><a asp-controller="business" asp-action="index">Korporativ</a></li>
                                     <li><a asp-controller="contact" asp-action="index">Əlaqə</a>
+                                    <li class="dropdown">
+                                        <a>Məxfilik Siyasəti</a>
+                                        <ul>
+                                            <li><a asp-action="costumer" asp-controller="privacypolicy">Müştəri</a></li>
+                                            <li><a asp-action="driver" asp-controller="privacypolicy">Sürücü</a></li>
+                                        </ul>
+                                    </li>
+
                                 </ul>
                             </nav>
                         </div>
@@ -87,7 +96,7 @@
 
                         <div class="outer-box">
 
-                            <button class="ui-btn search-btn light"> <span class="icon lnr lnr-icon-search"></span> </button>
+                            @* <button class="ui-btn search-btn light"> <span class="icon lnr lnr-icon-search"></span> </button> *@
 
                             <div class="btn-box"> <a asp-controller="contact" asp-action="index" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Elə indi əlaqə saxla</span></a> </div>
 

@@ -60,6 +60,45 @@
 </section>
 
 
+<section class="pricing-section">
+    <div class="auto-container">
+        <div class="bg bg-pattern-5"></div>
+        <div class="sec-title text-center">
+            <span class="sub-icon"></span>
+            <span class="sub-title">İstəklərinizə uyğun</span>
+            <h2 class="letters-slide-up text-split">Təkliflərimiz</h2>
+        </div>
+        <div class="outer-box" data-aos="fade-left">
+            <div class="pricing-carousel owl-carousel owl-theme default-dots">
+
+                @foreach (var item in Model.Suggestions)
+                {
+                    <div class="pricing-block">
+                        <div class="inner-box">
+                            <div class="image-box">
+                                <img src="~/uploads/suggestion/@item.Image" alt="Image">
+                            </div>
+                            <div class="content">
+                                <div class="car-detail" style="display:flex; justify-content:space-between">
+                                    <h4 class="car-name" style="display:flex; align-items:center;">@item.Name</h4>
+                                    <ul class="feature-list" style="padding:0px; margin:0; display:flex; flex-direction:column; align-items:center">
+                                        <li class="fas fa-users" style="padding:0px; margin:0;"></li>
+                                        <li style="padding:0px; margin:0;">  @item.PersonCount nəfər</li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
 <section class="funfact-section">
     <div class="auto-container">
         <div class="fact-counter">

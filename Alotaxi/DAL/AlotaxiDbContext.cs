@@ -14,7 +14,9 @@ namespace Alotaxi.DAL
         public DbSet<AppUser> AppUsers { get; set; }
         public DbSet<Settings> Settings { get; set; }
         public DbSet<Statistic> Statistics { get; set; }
+        public DbSet<Suggestion> Suggestions { get; set; }
         public DbSet<WhyUs> WhyUs { get; set; }
         public DbSet<About> About { get; set; }
+        public DbSet<Customer> Customers { get; set; }
     }
 }

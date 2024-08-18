@@ -19,6 +19,7 @@ namespace Alotaxi.Controllers
             HomeViewModel vm = new HomeViewModel
             {
                 Sliders = _context.Sliders.ToList(),
+                Suggestions = _context.Suggestions.ToList(),
                 Settings = _context.Settings.ToList(),
                 Statistics = _context.Statistics.ToList(),
                 WhyUs = _context.WhyUs.Take(3).ToList(),

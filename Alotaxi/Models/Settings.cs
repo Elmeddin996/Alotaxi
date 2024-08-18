@@ -10,5 +10,7 @@
         public string Facebook { get; set; }
         public string AppStore { get; set; }
         public string PlayStore { get; set; }
+        public string BusinessTitle { get; set; }
+        public string BusinessDescription { get; set; }
     }
 }

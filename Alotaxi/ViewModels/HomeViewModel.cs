@@ -8,6 +8,7 @@ namespace Alotaxi.ViewModels
         public List<Settings> Settings { get; set; }
         public List<Statistic> Statistics { get; set; }
         public List<WhyUs> WhyUs { get; set; }
+        public List<Suggestion> Suggestions { get; set; }
 
     }
 }

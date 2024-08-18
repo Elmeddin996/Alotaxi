@@ -1,0 +1,119 @@
+﻿@model BusinessViewModel
+
+<section class="page-title" style="background-image: url(images/background/page-title.png);">
+    <div class="auto-container">
+        <div class="title-outer text-center">
+            <h1 class="title">Korporativ</h1>
+            <ul class="page-breadcrumb">
+                <li><a asp-action="index" asp-controller="home">Əsas Səhifə</a></li>
+                <li>Korparativ</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="services-details">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xl-4 col-lg-4">
+                <div class="service-sidebar">
+
+                    <div class="sidebar-widget service-sidebar-single">
+
+                        @foreach (var setting in Model.Settings)
+                        {
+                            <div class="service-details-help" style="margin:0">
+                                <div class="help-shape-1"></div>
+                                <div class="help-shape-2"></div>
+                                <h2 class="help-title">Biznesiniz <br> Üçün <br> Taxi Xidməti</h2>
+                                <a href="tel:@setting.Phone">
+                                    <div class="help-icon">
+                                        <span class=" lnr-icon-phone-handset"></span>
+                                    </div>
+                                </a>
+                                <div class="help-contact">
+                                    <p>Şirkətinizin nəqliyyat ehtiyacları üçün bizimlə əməkdaşlıq edin.</p>
+                                    <a href="tel:@setting.Phone">@setting.Phone</a>
+                                </div>
+                            </div>
+                        }
+
+                        <div class="sidebar-widget service-sidebar-single mt-4">
+                            <div style="margin-top:50px" class="service-sidebar-single-btn wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="1200m">
+                                <a href="#form" class="theme-btn btn-style-one d-grid"><span class="btn-title">Əməkdaşlıq Üçün </span><br /> <span class="btn-title">Bizə Mail Yaz</span></a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="col-xl-8 col-lg-8">
+                <div class="services-details__content">
+                    <img src="images/resource/business.png" alt>
+                    @foreach (var item in Model.Settings)
+                    {
+                        <h3 class="mt-4">@item.BusinessTitle</h3>
+                        <p>@item.BusinessDescription</p>
+
+                    }
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        <div class="sec-title" style="display:flex; justify-content:center">
+            <h2>Müştərilərimiz</h2>
+        </div>
+    <div class="outer-box" data-aos="fade-left">
+        <div class="pricing-carousel owl-carousel owl-theme default-dots">
+
+            @foreach (var item in Model.Customers)
+            {
+                <div class="pricing-block" style="margin:0 20px">
+                    <img src="~/uploads/customer/@item.Image" alt="Image" style="width:15rem">
+                </div>
+            }
+        </div>
+    </div>
+</section>
+
+<section style="display:flex; justify-content:center; margin-top:80px" id="form">
+    <div class="col-xl-7 col-lg-6">
+        <div class="sec-title">
+            <span class="sub-title">Bizimlə əməkdaşlıq üçün</span>
+            <h2>Birbaşa Bizə Yaz</h2>
+        </div>
+
+        <form id="contact_form" name="contact_form" method="post" enctype="multipart/form-data">
+            <div class="row">
+                <div class="mb-3">
+                    <input class="form-control" type="text" name="Fullname" id="Fullname" placeholder="Şirkətinizin Adı">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="mb-3">
+                        <input type="email" class="form-control" name="email" id="email" placeholder="Email">
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div class="mb-3">
+                        <input type="number" name="phone" class="form-control" id="phone" placeholder="Nömrə">
+                    </div>
+                </div>
+            </div>
+            <div class="mb-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Mesaj"></textarea>
+            </div>
+            <div class="mb-5">
+                <input name="form_botcheck" class="form-control" type="hidden" value />
+                <button type="submit" class="theme-btn btn-style-one mb-3 mb-sm-0" data-loading-text="Zəhmət olmasa gözləyin..."><span class="btn-title">Mesaj göndər</span></button>
+            </div>
+        </form>
+
+    </div>
+</section>

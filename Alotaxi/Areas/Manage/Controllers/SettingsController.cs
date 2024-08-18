@@ -44,6 +44,8 @@ namespace Alotaxi.Areas.Manage.Controllers
             existSettings.AppStore= settings.AppStore;
             existSettings.Instagram= settings.Instagram;
             existSettings.Facebook = settings.Facebook;
+            existSettings.BusinessDescription = settings.BusinessDescription;
+            existSettings.BusinessTitle = settings.BusinessTitle;
 
             _context.SaveChanges();
 
