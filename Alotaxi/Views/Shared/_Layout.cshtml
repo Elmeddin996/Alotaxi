@@ -54,6 +54,8 @@
                                 <ul class="social-icon-one">
                                     <li><a href="@setting.Facebook"><i class="fab fa-facebook"></i></a></li>
                                     <li><a href="@setting.Instagram"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="@setting.Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                    <li><a href="@setting.Tiktok"><i class="fab fa-tiktok"></i></a></li>
                                 </ul>
                             }
                         </div>
@@ -80,7 +82,6 @@
                                     </li>
                                     <li><a asp-controller="service" asp-action="index">Xidmətlərimiz</a></li>
                                     <li><a asp-controller="business" asp-action="index">Korporativ</a></li>
-                                    <li><a asp-controller="contact" asp-action="index">Əlaqə</a>
                                     <li class="dropdown">
                                         <a>Məxfilik Siyasəti</a>
                                         <ul>
@@ -98,7 +99,7 @@
 
                             @* <button class="ui-btn search-btn light"> <span class="icon lnr lnr-icon-search"></span> </button> *@
 
-                            <div class="btn-box"> <a asp-controller="contact" asp-action="index" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Elə indi əlaqə saxla</span></a> </div>
+                            <div class="btn-box"> <a asp-controller="contact" asp-action="index" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Əlaqə</span></a> </div>
 
                             <div class="mobile-nav-toggler light"><span class="icon lnr-icon-bars"></span></div>
                         </div>
@@ -147,6 +148,8 @@
                         {
                             <li><a href="@item.Facebook"><i class="fab fa-facebook-f"></i></a></li>
                             <li><a href="@item.Instagram"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="@item.Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                            <li><a href="@item.Tiktok"><i class="fab fa-tiktok"></i></a></li>
                         }
                     </ul>
                 </nav>
@@ -231,11 +234,15 @@
 
                         <div class="footer-column col-lg-4 col-md-6 col-sm-12">
                             <div class="footer-widget newsletter-widget">
-                                <h4 class="widget-title">Səhİfələr</h4>
+                                <h4 class="widget-title">Sosial Şəbəkələr</h4>
                                 <div class="widget-content">
-                                    <button type="button" asp-action="index" asp-controller="service"  class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Xidmətlərimiz</span></button>
-                                    <button type="button" asp-action="index" asp-controller="about" style="padding: 24px 80px 20px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Haqqımızda</span></button>
-                                    <button type="button" asp-action="index" asp-controller="contact" style="padding: 24px 102px 20px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><span class="btn-title">Əlaqə</span></button>
+                                   @foreach (var item in settings)
+                                    {
+                                        <a type="button" href="@item.Facebook" style="padding: 14px 107px 14px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><i style="padding-right: 10px;" class="fab fa-facebook"></i><span class="btn-title"> Facebook</span></a>
+                                        <a type="button" href="@item.Instagram" style="padding: 14px 88px 14px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><i style="padding-right: 10px;" class="fab fa-instagram"></i><span class="btn-title"> Instagram</span></a>
+                                        <a type="button" href="@item.Linkedin" style="padding: 14px 80px 14px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><i style="padding-right: 10px;" class="fab fa-linkedin"></i><span class="btn-title"> Linkedin</span></a>
+                                        <a type="button" href="@item.Tiktok" style="padding: 14px 80px 14px 60px;" class="theme-btn btn-style-one dark-line-two hover-light"><i style="padding-right: 10px;" class="fab fa-tiktok"></i><span class="btn-title"> Tiktok</span></a>
+                                    }
                                 </div>
                             </div>
                         </div>
@@ -247,7 +254,7 @@
                 <div class="auto-container">
                     <div class="inner-container">
                         <div class="copyright-text">© Created by <a href="mailto: elmaddinshm@code.edu.az">Elmeddin Mirzeyev.</a> </div>
-                        <ul class="footer-nav">
+                        @* <ul class="footer-nav">
                             @foreach (var item in settings)
                             {
                                 <li><a href="@item.Facebook"><i class="fab fa-facebook"></i> Facebook</a></li>
@@ -258,7 +265,7 @@
 
                                 <li><a href="@item.Instagram"><i class="fab fa-instagram"></i> Instagram</a></li>
                             }
-                        </ul>
+                        </ul> *@
                     </div>
                 </div>
             </div>

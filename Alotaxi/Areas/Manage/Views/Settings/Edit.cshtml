@@ -37,6 +37,14 @@
                 <input class="form-control" placeholder="Facebook Linki Əlavə Edin" asp-for="Facebook">
             </div>
             <div class="form-group">
+                <label asp-for="Tiktok">Tiktok</label>
+                <input class="form-control" placeholder="Tiktok Linki Əlavə Edin" asp-for="Tiktok">
+            </div>
+            <div class="form-group">
+                <label asp-for="Linkedin">Linkedin</label>
+                <input class="form-control" placeholder="Linkedin Linki Əlavə Edin" asp-for="Linkedin">
+            </div>
+            <div class="form-group">
                 <label asp-for="BusinessTitle">Korporativ üçün başlıq</label>
                 <input class="form-control" placeholder="Başlıq Əlavə Edin" asp-for="BusinessTitle">
             </div>
@@ -44,7 +52,16 @@
                 <label asp-for="BusinessDescription">Korporativ üçün Açıqlama</label>
                 <input class="form-control" placeholder="Açıqlama Əlavə Edin" asp-for="BusinessDescription">
             </div>
-          
+            <div class="form-group">
+                <label asp-for="ImageFile">Image</label>
+                <input class="form-control" asp-for="ImageFile">
+                <span class="text-danger" asp-validation-for="ImageFile"></span>
+            </div>
+            <div class="d-flex">
+                <div class="img-box" style="position:relative;margin-right:14px">
+                    <img width="200" src="~/uploads/settings/@Model.Image" />
+                </div>
+            </div>
            
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>

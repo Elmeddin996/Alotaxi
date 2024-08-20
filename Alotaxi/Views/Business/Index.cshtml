@@ -51,9 +51,9 @@
 
             <div class="col-xl-8 col-lg-8">
                 <div class="services-details__content">
-                    <img src="images/resource/business.png" alt>
                     @foreach (var item in Model.Settings)
                     {
+                        <img src="~/uploads/settings/@item.Image" alt>
                         <h3 class="mt-4">@item.BusinessTitle</h3>
                         <p>@item.BusinessDescription</p>
 
@@ -65,9 +65,9 @@
     </div>
 
 
-        <div class="sec-title" style="display:flex; justify-content:center">
-            <h2>Müştərilərimiz</h2>
-        </div>
+    <div class="sec-title" style="display:flex; justify-content:center">
+        <h2>Müştərilərimiz</h2>
+    </div>
     <div class="outer-box" data-aos="fade-left">
         <div class="pricing-carousel owl-carousel owl-theme default-dots">
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "VXEjK/Yu69rG7AX7wZ88eXvbmc0CAJ3sdrBXNpVVHY8=",
+  "Hash": "9PpgR+qFai0yAb96SExMuPoACsfLJqMbvXJK56rRrDQ=",
   "Source": "Alotaxi",
   "BasePath": "_content/Alotaxi",
   "Mode": "Default",
@@ -5639,6 +5639,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\uploads\\customer\\e2525f22-be30-4c1d-b6a4-d0f4d31934402560px-Azercell-logo-3.svg.png"
+    },
+    {
+      "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\uploads\\settings\\acc87719-497a-4af3-8e9d-1cf64ddc474cbusiness.png",
+      "SourceId": "Alotaxi",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\",
+      "BasePath": "_content/Alotaxi",
+      "RelativePath": "uploads/settings/acc87719-497a-4af3-8e9d-1cf64ddc474cbusiness.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\settings\\acc87719-497a-4af3-8e9d-1cf64ddc474cbusiness.png"
     },
     {
       "Identity": "C:\\Users\\User\\OneDrive\\Desktop\\Alotaxi\\Alotaxi\\wwwroot\\uploads\\sliders\\e737b591-a0ba-4101-bb6a-baad2f49e4bapage-title.png",

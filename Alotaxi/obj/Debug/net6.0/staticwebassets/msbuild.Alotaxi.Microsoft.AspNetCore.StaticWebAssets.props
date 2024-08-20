@@ -4720,6 +4720,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\customer\e2525f22-be30-4c1d-b6a4-d0f4d31934402560px-Azercell-logo-3.svg.png))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\settings\acc87719-497a-4af3-8e9d-1cf64ddc474cbusiness.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>Alotaxi</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/Alotaxi</BasePath>
+      <RelativePath>uploads/settings/acc87719-497a-4af3-8e9d-1cf64ddc474cbusiness.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\settings\acc87719-497a-4af3-8e9d-1cf64ddc474cbusiness.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\uploads\sliders\e737b591-a0ba-4101-bb6a-baad2f49e4bapage-title.png))">
       <SourceType>Package</SourceType>
       <SourceId>Alotaxi</SourceId>

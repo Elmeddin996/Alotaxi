@@ -23,6 +23,7 @@
     <Folder Include="wwwroot\uploads\categories\" />
     <Folder Include="wwwroot\uploads\about\" />
     <Folder Include="wwwroot\uploads\customer\" />
+    <Folder Include="wwwroot\uploads\settings\" />
     <Folder Include="wwwroot\uploads\suggestion\" />
     <Folder Include="wwwroot\uploads\whyUs\" />
     <Folder Include="wwwroot\uploads\sliders\" />
